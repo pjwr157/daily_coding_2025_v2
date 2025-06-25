@@ -1,0 +1,26 @@
+package com.peisia.spring.mi.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.peisia.spring.mi.dto.CardDto;
+import com.peisia.spring.mi.service.CardService;
+
+import lombok.Setter;
+
+@RequestMapping("/card/*")
+@Controller
+public class CardController {
+	
+	@Setter(onMethod_ = @Autowired)
+	private CardService service;	
+	
+	@RequestMapping("/play")			
+	public void play() {
+		ArrayList<CardDto> n = service.getList();
+		System.out.println("==== 총 카드 수:"+n.size());
+	}				
+}
