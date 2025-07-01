@@ -1,0 +1,161 @@
+.App {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.pokeball-background {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,
+            #ee1515 0%, #ee1515 50%,
+            #000 50%, #000 52%,
+            #fff 52%, #fff 100%);
+}
+
+/* .pokeball-button {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 130px;
+    background: white;
+    border: 15px solid black;
+    border-radius: 50%;
+    z-index: 10;
+} */
+
+.pokeball-button {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 요소의 중심 기준으로 이동,	요소 중심이 부모 가운데로 이동 */
+    width: 14vh;
+    /* 화면 높이 기준 */
+    height: 14vh;
+    background: white;
+    border: 1.5vh solid black;
+    /* 비율에 맞게 */
+    border-radius: 50%;
+    z-index: 10;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.title {
+    /* font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; */
+    font-size: 64px;
+    font-weight: bold;
+    color: #ffcb05;
+    /* 포켓몬 노랑 */
+    text-shadow:
+        -2px -2px 0 #3b4cca,
+        /* 파랑 테두리 */
+        3px -3px 0 #3b4cca,
+        -3px 3px 0 #3b4cca,
+        3px 3px 0 #3b4cca;
+    letter-spacing: 3px;
+}
+
+.TitleSection {
+    /* background-color: #F62D14; */
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 50px; */
+}
+
+.TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #106fb7;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.TitleSection button {
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #811E09;
+    border: none;
+    color: white
+}
+
+.TitleSection button:hover {
+    cursor: pointer;
+    color: #ffcb05;
+}
+
+.DisplaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+    margin-top: -39px;
+    overflow: hidden;
+}
+
+.DisplaySection h1 {
+    /* margin-top: 40px; */
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+
+.DisplaySection h3,
+h4 {
+    margin: 7px;
+}
+
+.DisplaySection img {
+    height: 150px;     /* 높이 고정 */
+    width: 150px;       /* 가로 비율 유지 */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* 박스 사이 간격 */
+  margin-top: 20px;
+}
+
+.stats-container > h4 {
+  width: 30%;
+  text-align: center;
+}
+
+.footer-note {
+  position: fixed;          /*화면 스크롤과 관계없이 항상 같은 위치에 고정*/
+  bottom: 10px;             /*화면 오른쪽 아래에서 10px 띄워서 배치*/
+  right: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: right;        /*오른쪽 정렬 (줄바꿈 했을 때 깔끔함)*/
+}
+
+.footer-note a {
+  color: rgb(62, 62, 62);
+  text-decoration: none;    /*밑줄 제거*/
+}
+
+.footer-note a:hover {
+  text-decoration: underline;
+}
