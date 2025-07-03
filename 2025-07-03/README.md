@@ -1,9 +1,14 @@
 # Coding Study Log (When review, just view files w/o numbers or protos on them)
 
-Alright, so, I didn’t get a chance to write this down on the day (was completely chased by time TT), but last Friday was pretty eventful. I focused on wrapping up my card game project, tying up all the loose ends and making sure it ran smoothly.
-Then, I decided it was time to start something that actually really excites me: Pokemon! So I kicked off a new project to build my very own Pokedex. It’s been a while since I touched CSS seriously (felt like a million years), so styling things nicely was surprisingly tough — but also kind of fun. In the end, it wasn’t too shabby at all.
+Alright, so let us catch up;
 
-Today, I completed the Pokedex project! 🎉 It feels satisfying to see it all come together, especially since it’s something tied to my personal interests. Now that it’s done, I’m thinking of the next step: I want to build a site and connect my Pokedex to it, so it feels like a proper app hosted out there in the wild.
+(Tuesday – July 2)
+Tuesday was mostly about checking out my Pokedex project again; revisiting it with fresh eyes. After that, I decided to dive into something totally new for me: connecting React JS with Spring. Honestly, I still don’t quite get how it all ties together; frontend talking to backend, REST APIs, managing state, and everything in between; but I’m trying to piece it together step by step.
 
-And github really needs some manual to making a site or sth, it really is not working for me today. TT
-<!-- Today really burned be down; 2025.06.30 -->
+(Wednesday – July 3)
+Not much to report for yesterday. I wasn’t feeling too well, so I decided to rest up and take it easy. Actually I slept for the whole day. It really is sad to be sick all alone w/o anyone around.
+
+(Thursday – July 4)
+Back at it today! I jumped into a completely new area: Git and Git Bash. It felt like shifting gears entirely from what I’ve been doing lately. But surprisingly it’s not as intimidating as I thought. I practiced various Git commands, learned how to use branches, how to clone repositories, and started getting comfortable with navigating and managing versions and so on. Pretty satisfying to see how it helps keep everything organized and I can already tell how useful it’ll be for all my projects going forward.
+
+<!-- Let's try not to catch a cold from now on; 2025.07.03 -->
