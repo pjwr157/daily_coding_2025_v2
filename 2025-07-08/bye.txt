@@ -1,0 +1,4 @@
+BYE
+This is a test for heredoc
+Seems way useful compared to echo
+END EOF
